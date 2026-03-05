@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { saveTransaction } from "./transaction";
+import { saveTransaction } from "./Transaction";
 
 const Otp = () => {
   const navigate = useNavigate();
@@ -60,3 +60,4 @@ const Otp = () => {
 };
 
 export default Otp;
+
